@@ -1,0 +1,578 @@
+
+Experimental details:
+    Model     : mlp
+    Optimizer : sgd
+    Learning  : 0.01
+    Global Rounds   : 100
+
+    Federated parameters:
+    IID
+    Fraction of users  : 0.1
+    Local Batch size   : 10
+    Local Epochs       : 10
+
+Files already downloaded and verified
+Files already downloaded and verified
+MLP(
+  (layer_input): Linear(in_features=3072, out_features=64, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5, inplace=False)
+  (layer_hidden): Linear(in_features=64, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+
+ | Global Training Round : 1 |
+
+
+ | Global Training Round : 2 |
+
+ 
+Avg Training Stats after 2 global rounds:
+Training Loss : -0.22638021477544676
+Train Accuracy: 27.00% 
+
+
+ | Global Training Round : 3 |
+
+
+ | Global Training Round : 4 |
+
+ 
+Avg Training Stats after 4 global rounds:
+Training Loss : -0.26850425699411423
+Train Accuracy: 30.00% 
+
+
+ | Global Training Round : 5 |
+
+
+ | Global Training Round : 6 |
+
+ 
+Avg Training Stats after 6 global rounds:
+Training Loss : -0.29344019229513163
+Train Accuracy: 46.00% 
+
+
+ | Global Training Round : 7 |
+
+
+ | Global Training Round : 8 |
+
+ 
+Avg Training Stats after 8 global rounds:
+Training Loss : -0.3099460848170347
+Train Accuracy: 36.00% 
+
+
+ | Global Training Round : 9 |
+
+
+ | Global Training Round : 10 |
+
+ 
+Avg Training Stats after 10 global rounds:
+Training Loss : -0.322115744695958
+Train Accuracy: 34.00% 
+
+
+ | Global Training Round : 11 |
+
+
+ | Global Training Round : 12 |
+
+ 
+Avg Training Stats after 12 global rounds:
+Training Loss : -0.3293818862573971
+Train Accuracy: 43.00% 
+
+
+ | Global Training Round : 13 |
+
+
+ | Global Training Round : 14 |
+
+ 
+Avg Training Stats after 14 global rounds:
+Training Loss : -0.33916052098081234
+Train Accuracy: 47.00% 
+
+
+ | Global Training Round : 15 |
+
+
+ | Global Training Round : 16 |
+
+ 
+Avg Training Stats after 16 global rounds:
+Training Loss : -0.34560755001940924
+Train Accuracy: 36.00% 
+
+
+ | Global Training Round : 17 |
+
+
+ | Global Training Round : 18 |
+
+ 
+Avg Training Stats after 18 global rounds:
+Training Loss : -0.35192119622410645
+Train Accuracy: 52.00% 
+
+
+ | Global Training Round : 19 |
+
+
+ | Global Training Round : 20 |
+
+ 
+Avg Training Stats after 20 global rounds:
+Training Loss : -0.3572075328941311
+Train Accuracy: 36.00% 
+
+
+ | Global Training Round : 21 |
+
+
+ | Global Training Round : 22 |
+
+ 
+Avg Training Stats after 22 global rounds:
+Training Loss : -0.3617826663736486
+Train Accuracy: 42.00% 
+
+
+ | Global Training Round : 23 |
+
+
+ | Global Training Round : 24 |
+
+ 
+Avg Training Stats after 24 global rounds:
+Training Loss : -0.36537461191538023
+Train Accuracy: 39.00% 
+
+
+ | Global Training Round : 25 |
+
+
+ | Global Training Round : 26 |
+
+ 
+Avg Training Stats after 26 global rounds:
+Training Loss : -0.3684615985958416
+Train Accuracy: 35.00% 
+
+
+ | Global Training Round : 27 |
+
+
+ | Global Training Round : 28 |
+
+ 
+Avg Training Stats after 28 global rounds:
+Training Loss : -0.37201349138360873
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 29 |
+
+
+ | Global Training Round : 30 |
+
+ 
+Avg Training Stats after 30 global rounds:
+Training Loss : -0.37450761171876656
+Train Accuracy: 37.00% 
+
+
+ | Global Training Round : 31 |
+
+
+ | Global Training Round : 32 |
+
+ 
+Avg Training Stats after 32 global rounds:
+Training Loss : -0.3773807860992522
+Train Accuracy: 43.00% 
+
+
+ | Global Training Round : 33 |
+
+
+ | Global Training Round : 34 |
+
+ 
+Avg Training Stats after 34 global rounds:
+Training Loss : -0.3800414757931338
+Train Accuracy: 33.00% 
+
+
+ | Global Training Round : 35 |
+
+
+ | Global Training Round : 36 |
+
+ 
+Avg Training Stats after 36 global rounds:
+Training Loss : -0.3822902911136992
+Train Accuracy: 41.00% 
+
+
+ | Global Training Round : 37 |
+
+
+ | Global Training Round : 38 |
+
+ 
+Avg Training Stats after 38 global rounds:
+Training Loss : -0.38407706889598336
+Train Accuracy: 38.00% 
+
+
+ | Global Training Round : 39 |
+
+
+ | Global Training Round : 40 |
+
+ 
+Avg Training Stats after 40 global rounds:
+Training Loss : -0.38629838539846284
+Train Accuracy: 39.00% 
+
+
+ | Global Training Round : 41 |
+
+
+ | Global Training Round : 42 |
+
+ 
+Avg Training Stats after 42 global rounds:
+Training Loss : -0.3882259438415568
+Train Accuracy: 41.00% 
+
+
+ | Global Training Round : 43 |
+
+
+ | Global Training Round : 44 |
+
+ 
+Avg Training Stats after 44 global rounds:
+Training Loss : -0.389798850768603
+Train Accuracy: 43.00% 
+
+
+ | Global Training Round : 45 |
+
+
+ | Global Training Round : 46 |
+
+ 
+Avg Training Stats after 46 global rounds:
+Training Loss : -0.39120260599670487
+Train Accuracy: 39.00% 
+
+
+ | Global Training Round : 47 |
+
+
+ | Global Training Round : 48 |
+
+ 
+Avg Training Stats after 48 global rounds:
+Training Loss : -0.3927173680370118
+Train Accuracy: 43.00% 
+
+
+ | Global Training Round : 49 |
+
+
+ | Global Training Round : 50 |
+
+ 
+Avg Training Stats after 50 global rounds:
+Training Loss : -0.3940437399538613
+Train Accuracy: 40.00% 
+
+
+ | Global Training Round : 51 |
+
+
+ | Global Training Round : 52 |
+
+ 
+Avg Training Stats after 52 global rounds:
+Training Loss : -0.3955499843196446
+Train Accuracy: 45.00% 
+
+
+ | Global Training Round : 53 |
+
+
+ | Global Training Round : 54 |
+
+ 
+Avg Training Stats after 54 global rounds:
+Training Loss : -0.3971416012464181
+Train Accuracy: 51.00% 
+
+
+ | Global Training Round : 55 |
+
+
+ | Global Training Round : 56 |
+
+ 
+Avg Training Stats after 56 global rounds:
+Training Loss : -0.3986876704246716
+Train Accuracy: 28.00% 
+
+
+ | Global Training Round : 57 |
+
+
+ | Global Training Round : 58 |
+
+ 
+Avg Training Stats after 58 global rounds:
+Training Loss : -0.40013443482032807
+Train Accuracy: 49.00% 
+
+
+ | Global Training Round : 59 |
+
+
+ | Global Training Round : 60 |
+
+ 
+Avg Training Stats after 60 global rounds:
+Training Loss : -0.40162387654677356
+Train Accuracy: 40.00% 
+
+
+ | Global Training Round : 61 |
+
+
+ | Global Training Round : 62 |
+
+ 
+Avg Training Stats after 62 global rounds:
+Training Loss : -0.40255542941378075
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 63 |
+
+
+ | Global Training Round : 64 |
+
+ 
+Avg Training Stats after 64 global rounds:
+Training Loss : -0.40383009980915663
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 65 |
+
+
+ | Global Training Round : 66 |
+
+ 
+Avg Training Stats after 66 global rounds:
+Training Loss : -0.40480941689604527
+Train Accuracy: 43.00% 
+
+
+ | Global Training Round : 67 |
+
+
+ | Global Training Round : 68 |
+
+ 
+Avg Training Stats after 68 global rounds:
+Training Loss : -0.4057964324322288
+Train Accuracy: 52.00% 
+
+
+ | Global Training Round : 69 |
+
+
+ | Global Training Round : 70 |
+
+ 
+Avg Training Stats after 70 global rounds:
+Training Loss : -0.4069799000039413
+Train Accuracy: 49.00% 
+
+
+ | Global Training Round : 71 |
+
+
+ | Global Training Round : 72 |
+
+ 
+Avg Training Stats after 72 global rounds:
+Training Loss : -0.4078490889126348
+Train Accuracy: 37.00% 
+
+
+ | Global Training Round : 73 |
+
+
+ | Global Training Round : 74 |
+
+ 
+Avg Training Stats after 74 global rounds:
+Training Loss : -0.40858984386051905
+Train Accuracy: 41.00% 
+
+
+ | Global Training Round : 75 |
+
+
+ | Global Training Round : 76 |
+
+ 
+Avg Training Stats after 76 global rounds:
+Training Loss : -0.4095783941035509
+Train Accuracy: 34.00% 
+
+
+ | Global Training Round : 77 |
+
+
+ | Global Training Round : 78 |
+
+ 
+Avg Training Stats after 78 global rounds:
+Training Loss : -0.41076614295194075
+Train Accuracy: 39.00% 
+
+
+ | Global Training Round : 79 |
+
+
+ | Global Training Round : 80 |
+
+ 
+Avg Training Stats after 80 global rounds:
+Training Loss : -0.41170946752146753
+Train Accuracy: 40.00% 
+
+
+ | Global Training Round : 81 |
+
+
+ | Global Training Round : 82 |
+
+ 
+Avg Training Stats after 82 global rounds:
+Training Loss : -0.41271310877824174
+Train Accuracy: 42.00% 
+
+
+ | Global Training Round : 83 |
+
+
+ | Global Training Round : 84 |
+
+ 
+Avg Training Stats after 84 global rounds:
+Training Loss : -0.41329671700557863
+Train Accuracy: 41.00% 
+
+
+ | Global Training Round : 85 |
+
+
+ | Global Training Round : 86 |
+
+ 
+Avg Training Stats after 86 global rounds:
+Training Loss : -0.41407906090578633
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 87 |
+
+
+ | Global Training Round : 88 |
+
+ 
+Avg Training Stats after 88 global rounds:
+Training Loss : -0.41478603598042163
+Train Accuracy: 53.00% 
+
+
+ | Global Training Round : 89 |
+
+
+ | Global Training Round : 90 |
+
+ 
+Avg Training Stats after 90 global rounds:
+Training Loss : -0.415638137205498
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 91 |
+
+
+ | Global Training Round : 92 |
+
+ 
+Avg Training Stats after 92 global rounds:
+Training Loss : -0.41642168706854454
+Train Accuracy: 44.00% 
+
+
+ | Global Training Round : 93 |
+
+
+ | Global Training Round : 94 |
+
+ 
+Avg Training Stats after 94 global rounds:
+Training Loss : -0.4170996106341
+Train Accuracy: 42.00% 
+
+
+ | Global Training Round : 95 |
+
+
+ | Global Training Round : 96 |
+
+ 
+Avg Training Stats after 96 global rounds:
+Training Loss : -0.4177562533182349
+Train Accuracy: 46.00% 
+
+
+ | Global Training Round : 97 |
+
+
+ | Global Training Round : 98 |
+
+ 
+Avg Training Stats after 98 global rounds:
+Training Loss : -0.41842436608145195
+Train Accuracy: 42.00% 
+
+
+ | Global Training Round : 99 |
+
+
+ | Global Training Round : 100 |
+
+ 
+Avg Training Stats after 100 global rounds:
+Training Loss : -0.4190747978201145
+Train Accuracy: 48.00% 
+
+ 
+ Results after 100 global rounds of training:
+|---- Avg Train Accuracy: 48.00%
+|---- Test Accuracy: 42.12%
+
+ Total Run Time: 1710.5223
